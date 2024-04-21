@@ -169,7 +169,7 @@ const Level3 = (props: Props) => {
         <g id="Layer_2" data-name="Layer 2">
           <g id="BACKGROUND">
             <g>
-              <g style={{ transform: `translateY(${-props.offsetY * 0.2 + 1050}px)` }}>
+              <g style={{ transform: `translateY(${-props.offsetY * 0.2 + (props.sectionRef.current ? props.sectionRef.current?.getBoundingClientRect().height / 1.4: 0)}px)` }}>
                 <rect className="level-3-cls-25" y=".24" width="500" height="500"/>
                 <g className="level-3-cls-19">
                   <g className="level-3-cls-23">
@@ -869,7 +869,7 @@ const Level3 = (props: Props) => {
           </g>
           <g id="OBJECTS">
             <g>
-              <g style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 2500: 0)) }px)` }}>
+              <g style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop -(props.sectionRef.current ? props.sectionRef.current?.getBoundingClientRect().height * 1.75: 0): 0)) }px)` }}>
                 <path className="level-3-cls-32" d="m338.54,312.41c0,4.32-14.89,7.82-33.26,7.82s-33.25-3.5-33.25-7.82,14.89-7.82,33.25-7.82,33.26,3.5,33.26,7.82Z"/>
                 <path className="level-3-cls-32" d="m305.07,304.81c-23.64,0-41.89,5.45-41.89,11.53s18.14,11.53,41.79,11.53,43.34-5.26,43.34-11.34-19.59-11.72-43.23-11.72Zm0,20.74c-21.93,0-39.7-4.35-39.7-9.73s17.77-8.8,39.7-8.8,39.7,3.43,39.7,8.8-17.77,9.73-39.7,9.73Z"/>
                 <path className="level-3-cls-34" d="m305.78,304.27c-23.64,0-42.8,4.93-42.8,11.01s19.16,11.01,42.8,11.01,42.8-4.93,42.8-11.01-19.16-11.01-42.8-11.01Zm0,20.74c-21.93,0-39.7-4.35-39.7-9.73s17.77-9.73,39.7-9.73,39.7,4.36,39.7,9.73-17.77,9.73-39.7,9.73Z"/>
@@ -935,7 +935,7 @@ const Level3 = (props: Props) => {
                   <path className="level-3-cls-16" d="m313.29,258.4s.55.48.1,1.13c-.46.64-6.67.98-8.79.59s-5.09-1.21-6.59-1.93c-1.5-.72-2.02-.61-2.29-1.97-.27-1.36.29-2.55.25-2.77-.04-.22,1.69.4,1.69.4,0,0,.8,1.09,1.52,1.74.72.65,3.51,1.57,5.41,1.74,1.89.17,5.87.73,6.65.72.78,0,2.04.34,2.04.34Z"/>
                 </g>
               </g>
-              <g style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 2500: 0)) }px)` }}>
+              <g style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop -(props.sectionRef.current ? props.sectionRef.current?.getBoundingClientRect().height * 1.75: 0): 0)) }px)` }}>
                 <path className="level-3-cls-32" d="m241,441.51l30.76-11.7-33.65-11.89-36.16,11.39c-13.56-2.1-29.37-3.31-46.25-3.31s-33.7,1.28-47.54,3.51l-36.88-7.93-32.67,12,28.87,10.32c-1.9,1.93-2.92,3.95-2.92,6.03,0,13.22,40.8,23.94,91.13,23.94s91.13-10.72,91.13-23.94c0-2.97-2.06-5.81-5.83-8.44Z"/>
                 <g>
                   <g>
@@ -1118,7 +1118,7 @@ const Level3 = (props: Props) => {
                   </g>
                 </g>
               </g>
-              <g style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 2500: 0)) }px)` }}>
+              <g style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop -(props.sectionRef.current ? props.sectionRef.current?.getBoundingClientRect().height * 1.75: 0): 0)) }px)` }}>
                 <g>
                   <polygon className="level-3-cls-32" points="369.1 454.67 305.38 463.93 333.1 482.57 401.2 471.52 369.1 454.67"/>
                   <polygon className="level-3-cls-34" points="307.11 464.9 311.86 381.78 320.71 381.78 311.86 464.24 307.11 464.9"/>

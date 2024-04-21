@@ -392,9 +392,9 @@ const Level2 = (props: Props) => {
         <circle className="level-2-cls-44" cx="358.03" cy="284.44" r="2.89"/>
         <circle className="level-2-cls-44" cx="377.28" cy="284.44" r="2.89"/>
         </g>
-        <rect style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1780: 0)) }px)` }} id="bottom-shelf" className="level-2-cls-27" x="79.96" y="177.93" width="101.19" height="5.7" rx="2.75" ry="2.75"/>
-        <rect style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1780: 0)) }px)` }} id="top-shelf" className="level-2-cls-27" x="200.57" y="115.83" width="101.19" height="5.7" rx="2.16" ry="2.16"/>
-        <g id="right-plant-top-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1780: 0)) }px)` }}>
+        <rect style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.38: 0): 0)) }px)` }} id="bottom-shelf" className="level-2-cls-27" x="79.96" y="177.93" width="101.19" height="5.7" rx="2.75" ry="2.75"/>
+        <rect style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.38: 0): 0)) }px)` }} id="top-shelf" className="level-2-cls-27" x="200.57" y="115.83" width="101.19" height="5.7" rx="2.16" ry="2.16"/>
+        <g id="right-plant-top-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.38: 0): 0)) }px)` }}>
         <path className="level-2-cls-59" d="m252.83,74.42c2.94,1.63,5.93,3.28,8.32,5.65,3.76,3.74,5.75,9.19,5.28,14.47-1.55-.46-3.11-1.03-4.35-2.07-1.07-.9-1.83-2.1-2.57-3.28-2.9-4.61-5.87-9.39-6.68-14.78Z"/>
         <path className="level-2-cls-59" d="m277.35,74.91c.25,2.54.3,5.14-.36,7.61-.66,2.47-2.12,4.8-4.33,6.08-.15.09-.33.18-.5.13-.19-.05-.29-.24-.38-.42-3.52-7.27-5.37-15.87-2.51-23.42,1.08-2.85,2.78-5.44,3.94-8.26,1.76,6.01,3.53,12.05,4.14,18.28Z"/>
         <path className="level-2-cls-59" d="m290.77,71.73c2.23-1.28,4.74-1.99,7.21-2.69-.21,4.97-2.67,9.68-6.15,13.25-3.47,3.57-7.89,6.09-12.49,8.01,1.01-3.59,2.14-7.18,3.92-10.45,1.78-3.28,4.26-6.26,7.5-8.11Z"/>
@@ -406,7 +406,7 @@ const Level2 = (props: Props) => {
             <path className="level-2-cls-43" d="m287.95,102.82c-2.3.85-4.33,2.86-6.66.2-.73-.84-1.69-1.66-2.88-1.66-1.4,0-2.76.98-3.92,1.63-3.33,1.89-5.19-.18-7.75-1.5-.75-.39-1.88-.27-2.62.08-1.17.55-2.34,1.13-3.5,1.73l.47,1.43c.2-.08.39-.17.59-.25,1.81-.77,3.38-2.11,5.32-.54.53.42.98,1,1.57,1.35,3.51,2.09,6.13-.59,9.38-1.89.94-.37,3.27,2.48,4.19,3.05.94.59,2.19.29,3.16,0,2.1-.63,3.91-3.13,6.24-1.21.41.34.75.67,1.08,1l.74-2.05c-1.51-1.31-2.85-2.34-5.42-1.39Z"/>
         </g>
         </g>
-        <g id="left-plant-top-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1780: 0)) }px)` }}>
+        <g id="left-plant-top-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.38: 0): 0)) }px)` }}>
         <path className="level-2-cls-26" d="m233.02,98.66c-.3.3-.62.61-1.03.73-.93.27-1.81-.55-2.38-1.34-1.52-2.11-2.53-4.55-3.35-7.01-.41-1.22-.78-2.47-.81-3.76-.06-2.6,1.28-5.07,3.13-6.9,1.84-1.83,4.15-3.11,6.45-4.32.8-.42,1.65-.88,2.07-1.68.4-.75.33-1.65.4-2.5.23-2.91,2.11-5.48,4.46-7.21,2.35-1.72,5.15-2.72,7.91-3.64-.28,1.52-1.21,2.82-2.01,4.14-2.02,3.33-3.35,7.07-3.89,10.92-.59,4.18-.28,8.61-2.09,12.43-1.21,2.55-3.25,4.59-5.26,6.58-1.2,1.19-2.41,2.38-3.61,3.57Z"/>
         <path className="level-2-cls-26" d="m228.31,95.57c-1.73.83-3.77.36-5.62-.17-2.53-.72-5.18-1.62-6.85-3.65-1.98-2.41-2.11-5.81-1.88-8.92.23-3.11.7-6.34-.37-9.27-.43-1.16-1.08-2.22-1.63-3.33-1.62-3.27-2.29-7.01-1.91-10.64,2.04,1.33,3.66,3.2,5.25,5.04,2.07,2.4,4.24,5.03,4.46,8.19.09,1.26-.14,2.57.33,3.74.37.92,1.11,1.63,1.84,2.31,1.26,1.18,2.52,2.35,3.78,3.53,1.94,1.81,3.96,3.73,4.83,6.24.87,2.51.17,5.79-2.23,6.93Z"/>
         <path className="level-2-cls-59" d="m225.85,97.97c-3.8-2.02-6.05-6.59-5.34-10.83.76-4.51,4.49-8.47,3.91-13.01-.28-2.2-1.55-4.13-2.24-6.24-1.23-3.73-.56-7.93,1.29-11.4s4.79-6.26,8.06-8.44c-2.09,4.67-2,10.26.25,14.86.85,1.74,1.98,3.32,2.82,5.07.95,1.98,1.51,4.15,1.62,6.35.08,1.49-.06,3.04-.77,4.34-1.02,1.87-3.08,3.03-4.02,4.94-.85,1.73-.62,3.78-.26,5.68.36,1.89.84,3.84.44,5.73-.4,1.89-2,3.69-3.92,3.56-.65-.04-1.26-.3-1.83-.6Z"/>
@@ -418,7 +418,7 @@ const Level2 = (props: Props) => {
             <path className="level-2-cls-43" d="m210.84,93.72l.54,2.77c10,.74,20.3.15,30.33-.02l.61-2.76c-10.4-.17-21.11-.81-31.48.01Z"/>
         </g>
         </g>
-        <g id="right-plant-bottom-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1780: 0)) }px)` }}>
+        <g id="right-plant-bottom-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.38: 0): 0)) }px)` }}>
         <path className="level-2-cls-59" d="m161.25,140.68c2.22-2.89,5.46-4.81,9.41-3.97,2.55.54,4.77,2.31,6.02,4.57,1.31,2.36,2.44,6.13,2.24,8.82-.08,1.08-.37,2.14-.67,3.18-.81,2.91-1.62,5.83-2.44,8.74-.75,2.68-1.57,5.5-3.56,7.45-1.99,1.95-5.53,2.61-7.5.63-.41-.41-.72-.91-1.03-1.4-.08-.13-.17-.27-.25-.4-1.1-1.74-2.21-3.49-3.08-5.36-2.46-5.27-3.5-11.63-1.72-17.27.56-1.76,1.43-3.51,2.57-5Z"/>
         <polygon className="level-2-cls-34" points="160.53 177.93 157.48 162.45 177.96 162.45 174.55 177.93 160.53 177.93"/>
         <path className="level-2-cls-35" d="m159.89,158.37c-.46.07-.92.13-1.38.2-.51.07-.98.11-1.38.46-.34.3-.12.78.24.92.42.16.87.03,1.3-.06l1.54-.34c.79-.18.43-1.29-.33-1.18Z"/>
@@ -450,7 +450,7 @@ const Level2 = (props: Props) => {
             <path className="level-2-cls-43" d="m158.44,167.31c2.44-1.2,4.7-1.56,7.57-.84,1.82.45,3.56,1.52,5.48,1.54,1.9.03,3.77-.37,5.49-1.12l.43-1.97c-1.46.78-2.93,1.47-4.72,1.7-2.51.32-5.27-1.25-7.65-1.84-2.32-.58-4.83.01-6.86,1.25l.25,1.28Z"/>
         </g>
         </g>
-        <g id="center-plant-bottom-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1780: 0)) }px)` }}>
+        <g id="center-plant-bottom-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.38: 0): 0)) }px)` }}>
         <path className="level-2-cls-59" d="m134.11,122.49c-.56-.89-1.12-1.78-1.67-2.66.12,3.09-.89,6.21-2.81,8.64-.82,1.04-1.87,1.99-3.17,2.26-2.4.49-4.61-1.53-5.79-3.68-1.66-3.01-2.25-6.53-2.1-9.96s1-6.8,2.05-10.07c1.72-5.33,4.04-10.54,7.59-14.87.24-.3.57-.62.95-.55.28.05.47.3.63.53,2.81,3.92,5.61,7.83,8.42,11.75,1.06,1.48,2.13,2.97,2.92,4.61,1.55,3.2,2,6.85,1.85,10.41-.07,1.67-.29,3.39-1.17,4.8-.88,1.41-2.58,2.43-4.21,2.06-1.59-.37-2.62-1.87-3.49-3.25Z"/>
         <path className="level-2-cls-59" d="m114.35,130.62c3.79.89,6.9,3.22,9.82,5.68.5.42,1.03.88,1.2,1.51.2.74-.15,1.54-.7,2.06-.56.52-1.29.81-2.01,1.04.88.69,1.68,1.49,2.36,2.39.44.58.85,1.36.51,2.01-.15.29-.44.5-.72.67-3.36,2.11-7.73,2.06-11.49.77-3.75-1.28-7.02-3.66-10.2-6.04-2.38-1.78-4.77-3.62-6.56-5.99-.27-.36,5.58-3.03,6.12-3.22,2.48-.84,5.1-1.3,7.72-1.31,1.43,0,2.74.14,3.96.43Z"/>
         <path className="level-2-cls-59" d="m149.02,144.42c3.61-1.67,7.29-3.76,9.27-7.21.12-.21.24-.45.21-.69-.05-.41-.49-.64-.88-.78-2.95-1.09-6.15-1.28-9.29-1.46-2.56-.14-5.29-.25-7.5,1.06-.68.41-1.35,1.09-1.22,1.88.17,1.01,1.44,1.32,2.46,1.41-1.68.7-3.12,1.98-4.03,3.56-.45.79-.78,1.74-.5,2.61.45,1.4,2.21,1.89,3.68,1.86,2.72-.05,5.32-1.09,7.79-2.23Z"/>
@@ -461,7 +461,7 @@ const Level2 = (props: Props) => {
             <path className="level-2-cls-43" d="m117.94,161.04c.83-.43,1.67-.85,2.5-1.29,2.66-1.42,2.95,1.1,3.99,3.21,1.6,3.24,3.38,6.24,5.79,8.94.35.39,1.1.3,1.34-.17,1.64-3.3,3.29-6.57,5.18-9.74.82-1.37,1.97-4.64,3.29-2.39.86,1.47,1.73,2.91,2.5,4.43.31.6,1.14.63,1.59.21,1.01-.96,2.02-1.91,3.04-2.86l.75-3.38c-.27,0-.55.11-.78.32-1.23,1.11-2.43,2.25-3.54,3.47-1.19-2.28-3.09-6.19-5.28-4.9-1.64.96-2.79,3.89-3.74,5.44-1.48,2.4-2.81,4.9-3.98,7.47-1.71-1.94-3-4.11-4.24-6.41-.88-1.64-1.57-4.05-2.89-5.37-1.29-1.29-3.75.02-5.83,1.44l.31,1.6Z"/>
         </g>
         </g>
-        <g id="left-plant-bottom-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1780: 0)) }px)` }}>
+        <g id="left-plant-bottom-shelf" style={{ transform: `translateY(-50px) translateX(${Math.min(-50, (props.offsetY - 200) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.38: 0): 0)) }px)` }}>
         <path className="level-2-cls-26" d="m101.62,168.76c-.02.35-.05.71-.23,1.01-.57.94-2.01.54-2.96-.02-3.7-2.2-6.89-5.39-8.69-9.3-1.8-3.91-2.14-8.57-.5-12.55,7.7,3.74,12.78,12.31,12.37,20.86Z"/>
         <path className="level-2-cls-26" d="m97.13,168.76c.02.35.05.71.23,1.01.57.94,2.01.54,2.96-.02,3.7-2.2,6.89-5.39,8.69-9.3,1.8-3.91,2.14-8.57.5-12.55-7.7,3.74-12.78,12.31-12.37,20.86Z"/>
         <path className="level-2-cls-35" d="m107.85,152.05c-2.54,4.25-5.08,8.83-6.41,13.63-.12.42.54.73.73.31,2.06-4.57,3.79-9.21,6.21-13.63.19-.35-.33-.65-.53-.31Z"/>
@@ -471,7 +471,7 @@ const Level2 = (props: Props) => {
         <polygon className="level-2-cls-34" points="91.64 177.93 88.59 162.45 109.07 162.45 105.66 177.93 91.64 177.93"/>
         <path className="level-2-cls-43" d="m108.71,164.11c-6.48.42-13.2.05-19.52,1.37l.26,1.33c6.19-.22,12.53.39,18.7-.18l.55-2.51Z"/>
         </g>
-        <g id="bottom-frame" style={{ transform: `translateY(-50px) translateX(${Math.max(20, -(props.offsetY) * 0.5 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1700: 0)) }px)` }}>
+        <g id="bottom-frame" style={{ transform: `translateY(-50px) translateX(${Math.max(20, -(props.offsetY) * 0.5 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.3725: 0): 0)) }px)` }}>
         <rect className="level-2-cls-34" x="390.52" y="158.99" width="50.78" height="50.78" rx="3.11" ry="3.11"/>
         <rect className="level-2-cls-16" x="394.52" y="162.99" width="42.78" height="42.78" rx="3.11" ry="3.11"/>
         <rect className="level-2-cls-6" x="397.44" y="166.65" width="36.93" height="35.44"/>
@@ -482,7 +482,7 @@ const Level2 = (props: Props) => {
         <path className="level-2-cls-40" d="m425.26,183.71c-1.03,1.1-1.48,2.69-2.32,3.95-.94,1.42-2.27,2.66-3.67,3.61-.52.35-.2,1.33.45,1.07,1.77-.71,3.29-1.68,4.65-3.04,1.22-1.22,2.71-3.05,2.62-4.88-.04-.85-1.1-1.4-1.73-.72Z"/>
         <path className="level-2-cls-40" d="m427.16,179.84c-.33.58-.63,1.19-.98,1.76-.35.58.37,1.38.96.96.84-.59,1.33-1.33,1.32-2.37,0-.69-.96-.97-1.31-.36Z"/>
         </g>
-        <g id="top-frame" style={{ transform: `translateY(-50px) translateX(${Math.max(20, -(props.offsetY) * 0.5 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1700: 0)) }px)` }}>
+        <g id="top-frame" style={{ transform: `translateY(-50px) translateX(${Math.max(20, -(props.offsetY) * 0.5 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.3725: 0): 0)) }px)` }}>
         <rect className="level-2-cls-34" x="346.67" y="99.4" width="40.55" height="40.55" rx="3.24" ry="3.24"/>
         <rect className="level-2-cls-16" x="349.8" y="102.53" width="34.3" height="34.3" rx="3.24" ry="3.24"/>
         <rect className="level-2-cls-6" x="352.2" y="105.53" width="29.49" height="28.3"/>
@@ -494,7 +494,7 @@ const Level2 = (props: Props) => {
         <path className="level-2-cls-54" d="m362.01,111.2c-.23-.32-.5-.41-.88-.36-.02,0-.05,0-.07,0-.2.03-.43.26-.46.46-.07.4.02.58.25.9.16.22.27.58.29.85.03.52.82.86,1.08.29.33-.75.3-1.48-.2-2.15Z"/>
         <path className="level-2-cls-54" d="m366.42,111.57c-1.07-.03-1.85,1.2-1.32,2.14.15.27.62.38.83.11.35-.46.65-.95.94-1.45.21-.35-.06-.78-.46-.79Z"/>
         </g>
-        <g id="right-table" style={{ transform: `translateX(${Math.max(0, -(props.offsetY) * 0.5 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1500: 0)) }px)` }}>
+        <g id="right-table" style={{ transform: `translateX(${Math.max(0, -(props.offsetY) * 0.5 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.175: 0): 0)) }px)` }}>
         <path className="level-2-cls-57" d="m406.37,443.86c0,2.39-13.28,4.33-29.67,4.33s-29.67-1.94-29.67-4.33,13.28-4.33,29.67-4.33,29.67,1.94,29.67,4.33Z"/>
         <ellipse className="level-2-cls-57" cx="312.87" cy="439.69" rx="39.5" ry="9.83"/>
         <ellipse className="level-2-cls-57" cx="437.2" cy="439.69" rx="39.5" ry="9.83"/>
@@ -577,7 +577,7 @@ const Level2 = (props: Props) => {
         <path className="level-2-cls-22" d="m419.29,439.05c-.48-.27-1-.48-1.53-.59-.28-.06-.44.3-.2.46.4.27.81.52,1.18.83.3.25.58.6,1,.55.18-.02.35-.14.34-.34-.02-.48-.41-.69-.8-.91Z"/>
         <path className="level-2-cls-22" d="m422.25,438.98c-.26-.49-.74-.81-1.15-1.16-.49-.41-.98-.81-1.47-1.22-.33-.27-.77.15-.48.48.38.42.77.84,1.15,1.27.4.44.78.98,1.33,1.25.4.19.84-.2.61-.61Z"/>
         </g>
-        <g id="left-table" style={{ transform: `translateX(${Math.min(0, (props.offsetY) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 1500: 0)) }px)` }}>
+        <g id="left-table" style={{ transform: `translateX(${Math.min(0, (props.offsetY) * 0.5 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 1.175: 0): 0)) }px)` }}>
         <path className="level-2-cls-57" d="m224.58,438.03c0,3.41-12.88,6.17-28.77,6.17s-28.77-2.76-28.77-6.17,12.88-6.17,28.77-6.17,28.77,2.76,28.77,6.17Z"/>
         <path className="level-2-cls-57" d="m156.03,443.86c0,2.39-13.28,4.33-29.67,4.33s-29.67-1.94-29.67-4.33,13.28-4.33,29.67-4.33,29.67,1.94,29.67,4.33Z"/>
         <ellipse className="level-2-cls-57" cx="56.87" cy="439.69" rx="39.5" ry="9.83"/>

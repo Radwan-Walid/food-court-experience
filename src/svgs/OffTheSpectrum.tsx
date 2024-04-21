@@ -164,7 +164,7 @@ const OffTheSpectrum = (props: Props) => {
       <g id="Objects">
         <g className="off-the-spectrum-cls-27">
           <g>
-            <g id="left-wall" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 560: 0)) }px)` }}>
+            <g id="left-wall" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.475: 0): 0)) }px)` }}>
               <rect className="off-the-spectrum-cls-8" width="28.77" height="297.5"/>
               <g>
                 <g>
@@ -285,7 +285,7 @@ const OffTheSpectrum = (props: Props) => {
                 </g>
               </g>
             </g>
-            <g id="right-wall" style={{ transform: `translateX(${Math.max(0, -props.offsetY * 0.4 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 560: 0)) }px)` }}>
+            <g id="right-wall" style={{ transform: `translateX(${Math.max(0, -props.offsetY * 0.4 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.475: 0): 0)) }px)` }}>
               <rect className="off-the-spectrum-cls-8" x="471.23" width="28.77" height="297.5"/>
               <g>
                 <g>
@@ -408,7 +408,7 @@ const OffTheSpectrum = (props: Props) => {
             </g>
             <rect className="off-the-spectrum-cls-11" x=".24" y="295.13" width="500" height="155.99"/>
             <rect className="off-the-spectrum-cls-2" y="292.09" width="500" height="13.58"/>
-            <g id="chairs" style={{ transform: `translateX(${-(props.offsetY - 400) * 0.9 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop + 200: 0) }px)` }}>
+            <g id="chairs" style={{ transform: `translateX(${-(props.offsetY - 400) * 0.9 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop + (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.25: 0): 0) }px)` }}>
               <g>
                 <g>
                   <path className="off-the-spectrum-cls-9" d="m75.27,452.29h5.91l-13.48-105.78h-22.65l-13.48,105.78h5.91l6.63-59.2h24.54l6.63,59.2Zm-11.1-99.1l1.58,14.16h-18.78l1.59-14.16h15.61Zm-19.58,35.51l1.96-17.53h19.63l1.96,17.53h-23.56Z"/>
@@ -431,7 +431,7 @@ const OffTheSpectrum = (props: Props) => {
                 <path className="off-the-spectrum-cls-12" d="m272.74,340.5h-45.48c-2.17,0-3.93,1.92-3.93,4.29v3.58h53.35v-3.58c0-2.37-1.76-4.29-3.93-4.29Z"/>
               </g>
             </g>
-            <g id="sofas" style={{ transform: `translateX(${(props.offsetY - 400) * 0.9 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop + 200: 0) }px)` }}>
+            <g id="sofas" style={{ transform: `translateX(${(props.offsetY - 400) * 0.9 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop + (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.25: 0): 0) }px)` }}>
               <g className="-translate-x-[854px]">
                 <g>
                   <g>
@@ -522,7 +522,7 @@ const OffTheSpectrum = (props: Props) => {
             <rect className="off-the-spectrum-cls-28" x="95.88" y="158.1" width="17.02" height="36.46"/>
             <rect className="off-the-spectrum-cls-28" x="114.6" y="171.96" width="10.55" height="22.61"/>
             <path className="off-the-spectrum-cls-28" d="m405.96,146.23h-20.91c-.46,0-.82.37-.79.81.03.4.37.71.79.71h.28l.86,14.28c.12,1.91,1.01,3.72,2.46,4.97,1.31,1.13,2.09,2.77,2.15,4.51l.03,1.04h-.18c-.41,0-.74.33-.74.74v1.11h-1.21c-.48,0-.87.39-.87.87v19.29h15.37v-19.29c0-.48-.39-.87-.87-.87h-1.22v-1.11c0-.41-.33-.74-.74-.74h-.18l.03-1.04c.05-1.73.84-3.37,2.15-4.51,1.45-1.25,2.34-3.06,2.46-4.97l.86-14.28h.28c.42,0,.77-.31.79-.71.03-.44-.33-.81-.79-.81Z"/>
-            <g id="coffee-machine" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 440: 0)) }px)` }}>
+            <g id="coffee-machine" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.35: 0): 0)) }px)` }}>
               <rect className="off-the-spectrum-cls-30" x="49.67" y="224.73" width="56.33" height="41.32"/>
               <rect className="off-the-spectrum-cls-20" x="73.94" y="224.73" width="6.3" height="41.32"/>
               <rect className="off-the-spectrum-cls-20" x="93.96" y="224.73" width="6.3" height="41.32"/>
@@ -547,7 +547,7 @@ const OffTheSpectrum = (props: Props) => {
               <polygon className="off-the-spectrum-cls-17" points="93.74 233.68 91.83 233.68 91.18 230.46 94.39 230.46 93.74 233.68"/>
               <path className="off-the-spectrum-cls-36" d="m86.55,243.56l.3-1.94h-12.6l1.67,10.9h9.25l.21-1.4c.36.13.75.21,1.15.21,2.04,0,3.7-1.74,3.7-3.89s-1.65-3.88-3.69-3.89Zm-.01,6.33c-.33,0-.64-.07-.93-.21l.71-4.65c.07,0,.14-.02.21-.02,1.28,0,2.32,1.09,2.32,2.44s-1.04,2.44-2.32,2.44Z"/>
             </g>
-            <g id="kettle" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 460: 0)) }px)` }}>
+            <g id="kettle" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.3625: 0): 0)) }px)` }}>
               <rect className="off-the-spectrum-cls-34" x="137.77" y="231.96" width="9" height="1.72"/>
               <polygon className="off-the-spectrum-cls-25" points="142.27 230.7 142.27 259.6 116.64 259.6 116.64 230.7 116.77 230.46 118.7 227.16 140.21 227.16 142.14 230.46 142.27 230.7"/>
               <polygon className="off-the-spectrum-cls-21" points="142.27 230.7 142.27 259.6 116.64 259.6 116.64 230.7 116.77 230.46 142.14 230.46 142.27 230.7"/>
@@ -556,7 +556,7 @@ const OffTheSpectrum = (props: Props) => {
               <rect className="off-the-spectrum-cls-4" x="130.4" y="227.14" width="2.87" height="30.74"/>
               <rect className="off-the-spectrum-cls-34" x="114.86" y="231.96" width="9" height="1.72"/>
             </g>
-            <g id="toaster" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 480: 0)) }px)` }}>
+            <g id="toaster" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.375: 0): 0)) }px)` }}>
               <rect className="off-the-spectrum-cls-17" x="184.21" y="261.32" width="2.13" height="5.01"/>
               <rect className="off-the-spectrum-cls-17" x="211.2" y="261.32" width="2.13" height="5.01"/>
               <rect className="off-the-spectrum-cls-30" x="178.57" y="238.55" width="36.13" height="24.44"/>
@@ -566,7 +566,7 @@ const OffTheSpectrum = (props: Props) => {
               <rect className="off-the-spectrum-cls-22" x="207.47" y="241.69" width="1.88" height="16.71"/>
               <rect className="off-the-spectrum-cls-17" x="204.65" y="253.91" width="7.52" height="2.09"/>
             </g>
-            <g id="food" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 500: 0)) }px)` }}>
+            <g id="food" style={{ transform: `translateX(${Math.min(0, props.offsetY * 0.4 - (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.385: 0): 0)) }px)` }}>
               <path className="off-the-spectrum-cls-15" d="m138.72,283.22c1.63-1.2,3.65-2.08,5.64-1.73,2.37.41,4.13,2.44,5.21,4.59-1.68.93-3.63,1.21-5.53,1.48-1.33.19-2.66.37-3.99.55-.94.12-2.26.53-3.06-.19-1.72-1.52.53-3.81,1.74-4.7Z"/>
               <path className="off-the-spectrum-cls-2" d="m129.29,290.04c-.76-.11-1.66-.35-1.87-1.09-.24-.83.6-1.57,1.38-1.94,1.81-.86,3.84-1.12,5.83-1.28,6.89-.55,13.81,0,20.7.53,1.77.14,3.55.28,5.28.67.4.09.89.33.82.73-.04.23-.25.38-.46.49-1.24.69-2.67.96-4.08,1.17-3.83.57-7.7.75-11.56.94-2.37.11-4.73.04-7.1.15-3.02.14-5.96-.36-8.94-.36Z"/>
               <path className="off-the-spectrum-cls-20" d="m197.64,283.12l.3-1.94h-12.6l1.67,10.9h9.25l.21-1.4c.36.13.75.21,1.15.21,2.04,0,3.7-1.74,3.7-3.89s-1.65-3.88-3.69-3.89Zm-.01,6.33c-.33,0-.64-.07-.93-.21l.71-4.65c.07,0,.14-.02.21-.02,1.28,0,2.32,1.09,2.32,2.44s-1.04,2.44-2.32,2.44Z"/>
@@ -577,7 +577,7 @@ const OffTheSpectrum = (props: Props) => {
               </g>
               <polygon className="off-the-spectrum-cls-20" points="176.94 292.09 124.16 292.09 121.73 288.05 179.36 288.05 176.94 292.09"/>
             </g>
-            <g id="cashier" style={{ transform: `translateX(${Math.max(0, -props.offsetY * 0.4 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - 460: 0)) }px)` }}>
+            <g id="cashier" style={{ transform: `translateX(${Math.max(0, -props.offsetY * 0.4 + (props.sectionRef.current?.offsetTop ? props.sectionRef.current.offsetTop - (props.sectionRef.current ? props.sectionRef.current.getBoundingClientRect().height * 0.395: 0): 0)) }px)` }}>
               <path className="off-the-spectrum-cls-30" d="m457.51,219.14h-72.06c-.69,0-1.24.56-1.24,1.24v49.84c0,.69.56,1.24,1.24,1.24h26.67v12.23h-9.84c-1.02,0-1.85.83-1.85,1.85v3.46h42.1v-3.46c0-1.02-.83-1.85-1.85-1.85h-9.84v-12.23h26.67c.69,0,1.24-.56,1.24-1.24v-49.84c0-.69-.56-1.24-1.24-1.24Z"/>
               <path className="off-the-spectrum-cls-17" d="m452.44,286.99h-61.94c-1.02,0-1.85.83-1.85,1.85v3.46h65.63v-3.46c0-1.02-.83-1.85-1.85-1.85Z"/>
               <g>
