@@ -584,18 +584,18 @@ const TheEnd = (props: Props) => {
           <rect className="cls-end-63" width="1000" height="500"/>
         </clipPath>
         <linearGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="500" y1="363.03" x2="500" y2="639.37" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#c9aeaf"/>
-          <stop offset="1" stop-color="#7c7185"/>
+          <stop offset="0" stopColor="#c9aeaf"/>
+          <stop offset="1" stopColor="#7c7185"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_5" data-name="Безымянный градиент 5" x1="498.01" y1="-137.06" x2="506.15" y2="1240.93" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#ff6647"/>
-          <stop offset=".99" stop-color="#750a59"/>
+          <stop offset="0" stopColor="#ff6647"/>
+          <stop offset=".99" stopColor="#750a59"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_13" data-name="Безымянный градиент 13" x1="500" y1="388.31" x2="500" y2="586.91" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#f0dcc5"/>
-          <stop offset=".29" stop-color="#b9b5b5"/>
-          <stop offset=".96" stop-color="#30548e"/>
-          <stop offset="1" stop-color="#274e8c"/>
+          <stop offset="0" stopColor="#f0dcc5"/>
+          <stop offset=".29" stopColor="#b9b5b5"/>
+          <stop offset=".96" stopColor="#30548e"/>
+          <stop offset="1" stopColor="#274e8c"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_13-2" data-name="Безымянный градиент 13" x1="499.84" y1="381.14" x2="499.84" y2="462.39" xlinkHref="#_Безымянный_градиент_13"/>
         <linearGradient id="_Безымянный_градиент_5-2" data-name="Безымянный градиент 5" x1="492.13" y1="-81.09" x2="512.68" y2="1582.82" xlinkHref="#_Безымянный_градиент_5"/>
@@ -604,10 +604,10 @@ const TheEnd = (props: Props) => {
         <linearGradient id="_Безымянный_градиент_13-5" data-name="Безымянный градиент 13" x1="300.68" y1="74.76" x2="299.06" y2="32.81" xlinkHref="#_Безымянный_градиент_13"/>
         <linearGradient id="_Безымянный_градиент_13-6" data-name="Безымянный градиент 13" x1="295" y1="400.16" x2="306.87" y2="-234.33" xlinkHref="#_Безымянный_градиент_13"/>
         <linearGradient id="_Безымянный_градиент_14" data-name="Безымянный градиент 14" x1="297.28" y1="174.51" x2="304.65" y2="-66.7" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#f0dcc5"/>
-          <stop offset=".29" stop-color="#b9b5b5"/>
-          <stop offset=".96" stop-color="#30548e"/>
-          <stop offset="1" stop-color="#274e8c"/>
+          <stop offset="0" stopColor="#f0dcc5"/>
+          <stop offset=".29" stopColor="#b9b5b5"/>
+          <stop offset=".96" stopColor="#30548e"/>
+          <stop offset="1" stopColor="#274e8c"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_14-2" data-name="Безымянный градиент 14" x1="302.26" y1="192.49" x2="299.56" y2="68.7" xlinkHref="#_Безымянный_градиент_14"/>
         <linearGradient id="_Безымянный_градиент_13-7" data-name="Безымянный градиент 13" x1="299.89" y1="113.03" x2="301.36" y2="201.21" xlinkHref="#_Безымянный_градиент_13"/>
@@ -624,16 +624,16 @@ const TheEnd = (props: Props) => {
         <linearGradient id="_Безымянный_градиент_13-13" data-name="Безымянный градиент 13" x1="300.18" y1="82.39" x2="299.98" y2="118.95" xlinkHref="#_Безымянный_градиент_13"/>
         <linearGradient id="_Безымянный_градиент_13-14" data-name="Безымянный градиент 13" x1="300.41" y1="116.81" x2="300.21" y2="55.53" xlinkHref="#_Безымянный_градиент_13"/>
         <linearGradient id="_Безымянный_градиент_4" data-name="Безымянный градиент 4" x1="297.98" y1="448.83" x2="302.03" y2="-159.36" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#e08138"/>
-          <stop offset="1" stop-color="#69174d"/>
+          <stop offset="0" stopColor="#e08138"/>
+          <stop offset="1" stopColor="#69174d"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_3" data-name="Безымянный градиент 3" x1="300.01" y1="322.01" x2="300.01" y2="136.13" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#5c230b"/>
-          <stop offset=".99" stop-color="#07163b"/>
+          <stop offset="0" stopColor="#5c230b"/>
+          <stop offset=".99" stopColor="#07163b"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_6" data-name="Безымянный градиент 6" x1="272.85" y1="78.71" x2="263.73" y2="352.99" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#1d2c40"/>
-          <stop offset="1" stop-color="#000"/>
+          <stop offset="0" stopColor="#1d2c40"/>
+          <stop offset="1" stopColor="#000"/>
         </linearGradient>
         <mask id="mask" x="229.79" y="138.3" width="114.05" height="172.39" maskUnits="userSpaceOnUse">
           <image width="115" height="173" transform="translate(229 138)" xlinkHref="data:image/png;base64,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"/>
@@ -643,8 +643,8 @@ const TheEnd = (props: Props) => {
         <linearGradient id="_Безымянный_градиент_4-3" data-name="Безымянный градиент 4" x1="299.14" y1="448.83" x2="303.2" y2="-159.34" xlinkHref="#_Безымянный_градиент_4"/>
         <linearGradient id="_Безымянный_градиент_4-4" data-name="Безымянный градиент 4" x1="299.37" y1="448.84" x2="303.42" y2="-159.36" xlinkHref="#_Безымянный_градиент_4"/>
         <linearGradient id="_Безымянный_градиент_15" data-name="Безымянный градиент 15" x1="285.24" y1="32.97" x2="270.18" y2="72.44" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#bf9a73"/>
-          <stop offset="1" stop-color="#000"/>
+          <stop offset="0" stopColor="#bf9a73"/>
+          <stop offset="1" stopColor="#000"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_4-5" data-name="Безымянный градиент 4" x1="307.89" y1="311.92" x2="322.8" y2="433.53" xlinkHref="#_Безымянный_градиент_4"/>
         <linearGradient id="_Безымянный_градиент_4-6" data-name="Безымянный градиент 4" x1="271.35" y1="316.4" x2="286.27" y2="438.01" xlinkHref="#_Безымянный_градиент_4"/>
@@ -669,8 +669,8 @@ const TheEnd = (props: Props) => {
         <linearGradient id="_Безымянный_градиент_4-25" data-name="Безымянный градиент 4" x1="226.88" y1="280.17" x2="164.87" y2="333.05" xlinkHref="#_Безымянный_градиент_4"/>
         <linearGradient id="_Безымянный_градиент_4-26" data-name="Безымянный градиент 4" x1="227.35" y1="292.21" x2="165.59" y2="344.87" xlinkHref="#_Безымянный_градиент_4"/>
         <linearGradient id="_Безымянный_градиент_16" data-name="Безымянный градиент 16" x1="217.99" y1="85.52" x2="177.39" y2="236.18" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#e89948"/>
-          <stop offset="1" stop-color="#000"/>
+          <stop offset="0" stopColor="#e89948"/>
+          <stop offset="1" stopColor="#000"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_16-2" data-name="Безымянный градиент 16" x1="223.92" y1="87.12" x2="183.32" y2="237.78" xlinkHref="#_Безымянный_градиент_16"/>
         <linearGradient id="_Безымянный_градиент_16-3" data-name="Безымянный градиент 16" x1="229.82" y1="88.71" x2="189.21" y2="239.37" xlinkHref="#_Безымянный_градиент_16"/>
@@ -715,16 +715,16 @@ const TheEnd = (props: Props) => {
         <linearGradient id="_Безымянный_градиент_16-25" data-name="Безымянный градиент 16" x1="627.67" y1="212.05" x2="585.68" y2="267.78" gradientTransform="translate(1035.05) rotate(-180) scale(1 -1)" xlinkHref="#_Безымянный_градиент_16"/>
         <linearGradient id="_Безымянный_градиент_16-26" data-name="Безымянный градиент 16" x1="632.2" y1="297.27" x2="601.35" y2="338.22" gradientTransform="translate(1035.05) rotate(-180) scale(1 -1)" xlinkHref="#_Безымянный_градиент_16"/>
         <linearGradient id="_Безымянный_градиент_8" data-name="Безымянный градиент 8" x1="670.48" y1="380.94" x2="589.6" y2="558.35" gradientTransform="translate(1377.55) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#f0d6aa"/>
-          <stop offset=".39" stop-color="#c19f9e"/>
-          <stop offset="1" stop-color="#72438c"/>
+          <stop offset="0" stopColor="#f0d6aa"/>
+          <stop offset=".39" stopColor="#c19f9e"/>
+          <stop offset="1" stopColor="#72438c"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_8-2" data-name="Безымянный градиент 8" x1="714.55" y1="348.97" x2="611.45" y2="449.26" xlinkHref="#_Безымянный_градиент_8"/>
         <linearGradient id="_Безымянный_градиент_8-3" data-name="Безымянный градиент 8" x1="583.69" y1="290.91" x2="474.64" y2="525.89" xlinkHref="#_Безымянный_градиент_8"/>
         <linearGradient id="_Безымянный_градиент_8-4" data-name="Безымянный градиент 8" x1="552.12" y1="235.82" x2="486.48" y2="414.95" xlinkHref="#_Безымянный_градиент_8"/>
         <linearGradient id="_Безымянный_градиент_9" data-name="Безымянный градиент 9" x1="561.98" y1="190.57" x2="540.86" y2="283.35" gradientTransform="translate(1377.55) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stop-color="#7a745d"/>
-          <stop offset="1" stop-color="#000"/>
+          <stop offset="0" stopColor="#7a745d"/>
+          <stop offset="1" stopColor="#000"/>
         </linearGradient>
         <linearGradient id="_Безымянный_градиент_8-5" data-name="Безымянный градиент 8" x1="577.48" y1="169.6" x2="498.36" y2="377.23" xlinkHref="#_Безымянный_градиент_8"/>
         <linearGradient id="_Безымянный_градиент_8-6" data-name="Безымянный градиент 8" x1="555.61" y1="278.9" x2="447.57" y2="511.69" xlinkHref="#_Безымянный_градиент_8"/>
